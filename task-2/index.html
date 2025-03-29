@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- top nav  -->
+    <div class="top-nav">
+        Free Shipping with minimum purchase Rp250.000 <i class="fas fa-arrow-right"></i>
+    </div>
+
+    <!-- Desktop/Tablet Layout -->
+    <div class="logo-div">
+        <img class="logo" src="./images/logo.png" alt="ecoshop">
+       
+        <div class="search-div">
+            <input type="text" placeholder="Search here...">
+            <i class="fas fa-search"></i>
+        </div>
+            
+        <div class="icons_div">
+            <img class="icon" src="./images/profile.svg" alt="Profile">
+            <img class="icon" src="./images/bag.svg" alt="Shopping Bag">
+        </div>
+    </div>
+
+    <!-- Mobile Layout -->
+    <div id="mobile-show">
+        <div class="logo-icons-container">
+            <img class="logo" src="./images/logo.png" alt="ecoshop">
+            
+            <div class="icons_div">
+                <img class="icon" src="./images/profile.svg" alt="Profile">
+                <img class="icon" src="./images/bag.svg" alt="Shopping Bag">
+            </div>
+        </div>
+        
+        <div class="search-menu-container">
+            <div class="search-div">
+                <input type="text" placeholder="Search here...">
+                <i class="fas fa-search"></i>
+            </div>
+            
+            <div class="mobile-menu-button">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- navlink  -->
+    <nav class="center-container">
+        <ul class="navlinks">
+            <li class="link">NEW!</li>
+            <li class="link">Clothing</li>
+            <li class="link">Bath</li>
+            <li class="link">Bedding</li>
+            <li class="link">Home Goods</li>
+            <li class="link">Furniture</li>
+            <li class="link">Footwear</li>
+            <li class="link">Accessories</li>
+        </ul>
+    </nav>
+    
+    <script>
+        // Simple toggle for mobile menu
+        document.querySelector('.mobile-menu-button').addEventListener('click', function() {
+            document.querySelector('.center-container').classList.toggle('show-mobile');
+        });
+    </script>
+</body>
+</html>
