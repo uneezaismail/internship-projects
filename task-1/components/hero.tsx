@@ -152,7 +152,7 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.5 }}
             className="text-lg md:text-xl text-gray-400 mb-12 max-w-2xl"
           >
-            I'm a full-stack web developer specializing in crafting exceptional, user-driven digital experiences. Currently, I'm focused on building intuitive, scalable solutions with a passion for {" "}
+            I&apos;m a full-stack web developer specializing in crafting exceptional, user-driven digital experiences. Currently, I&apos;m focused on building intuitive, scalable solutions with a passion for {" "}
             <a href="#" className="text-[#64FFDA] hover:underline">
             innovation
             </a>

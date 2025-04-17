@@ -6,6 +6,7 @@ import { useInView } from "react-intersection-observer"
 import Image from "next/image"
 import { Github, ExternalLink } from "lucide-react"
 import { useState, useEffect } from "react"
+import Link from "next/link"
 
 export default function Projects() {
   const [ref, inView] = useInView({
@@ -14,10 +15,10 @@ export default function Projects() {
   })
 
   const containerRef = useRef(null)
-  const { scrollYProgress } = useScroll({
-    target: containerRef,
-    offset: ["start end", "end start"],
-  })
+  // const { scrollYProgress } = useScroll({
+  //   target: containerRef,
+  //   offset: ["start end", "end start"],
+  // })
 
   const projects = [
     {
@@ -209,13 +210,13 @@ export default function Projects() {
           transition={{ duration: 0.6, delay: 0.8 }}
           className="text-center mt-16"
         >
-          <a
+          <Link
             href="https://github.com/uneezaismail"
             className="inline-flex items-center gap-2 px-8 py-4 border border-[#64FFDA] text-[#64FFDA] rounded-md hover:bg-[#64FFDA]/10 transition-colors duration-300 font-medium"
           >
             <span>View More Projects</span>
             <ExternalLink size={16} />
-          </a>
+          </Link>
         </motion.div>
       </div>
     </section>

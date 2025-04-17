@@ -33,7 +33,7 @@ export default function Contact() {
             <span className="text-[#64FFDA] font-mono text-xl mr-2">04.</span> Get In Touch
           </h2>
           <p className="text-gray-400 mt-6 max-w-lg mx-auto">
-            I'm currently looking for new opportunities. Whether you have a question or just want to say hi, I'll do my
+            I&apos;m currently looking for new opportunities. Whether you have a question or just want to say hi, I&apos;ll do my
             best to get back to you!
           </p>
         </motion.div>

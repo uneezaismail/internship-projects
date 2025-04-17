@@ -87,7 +87,7 @@ export default function Header() {
             transition={{ duration: 0.5, delay: 0.8 }}
             className="hidden md:block"
           >
-            <a
+            <Link
               href="/uneeza_ismail.pdf"
               className="relative inline-flex h-10 overflow-hidden rounded-full p-[1px] focus:outline-none"
             >
@@ -95,7 +95,7 @@ export default function Header() {
               <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-[#0a0a0a] px-6 py-1 text-sm font-medium text-[#64FFDA] backdrop-blur-3xl">
                 Resume
               </span>
-            </a>
+            </Link>
           </motion.div>
 
           <motion.button
@@ -142,13 +142,13 @@ export default function Header() {
                 ))}
               </ul>
               <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.4 }}>
-                <a
+                <Link
                   href="/resume.pdf"
                   className="inline-block px-8 py-3 border border-[#64FFDA] text-[#64FFDA] rounded hover:bg-[#64FFDA]/10 transition-colors duration-300 font-medium"
                   onClick={() => setIsOpen(false)}
                 >
                   Resume
-                </a>
+                </Link>
               </motion.div>
             </div>
           </motion.div>

@@ -45,17 +45,17 @@ export default function About() {
           >
             <div className="space-y-4 text-gray-400">
             <p>
-  Hello! I'm Uneeza, a web developer with a passion for building digital experiences. My journey started with experimenting on websites, where I quickly learned the ins and outs of HTML, CSS, and JavaScript.
+  Hello! I&apos;m Uneeza, a web developer with a passion for building digital experiences. My journey started with experimenting on websites, where I quickly learned the ins and outs of HTML, CSS, and JavaScript.
 </p>
 
 <p>
-  Fast-forward to today, and I've had the privilege of working on various projects, including{" "}
+  Fast-forward to today, and I&apos;ve had the privilege of working on various projects, including{" "}
   <span className="text-[#64FFDA]">e-commerce websites</span>,{" "}
   <span className="text-[#64FFDA]">interactive UIs</span>, and{" "}
   <span className="text-[#64FFDA]">AI integrations</span>. My main focus these days is building responsive, accessible, and performance-optimized digital experiences.
 </p>
 <p>
-  I'm also currently working on enhancing my skills with{" "}
+  I&apos;m also currently working on enhancing my skills with{" "}
   <a href="#" className="text-[#64FFDA] hover:underline">
     Next.js
   </a>{" "}
@@ -66,7 +66,7 @@ export default function About() {
 
 
               <div className="pt-4">
-                <h3 className="text-white font-semibold mb-3">Technologies I've been working with recently:</h3>
+                <h3 className="text-white font-semibold mb-3">Technologies I&apos;ve been working with recently:</h3>
                 <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
                   {[
                     "TypeScript",

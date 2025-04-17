@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion"
 import { Github, Linkedin, Twitter, Mail } from "lucide-react"
+import Link from "next/link"
 
 export default function Footer() {
   return (
@@ -9,34 +10,34 @@ export default function Footer() {
       <div className="container mx-auto px-6">
         <div className="flex flex-col items-center">
           <div className="flex space-x-6 mb-4 md:hidden">
-            <a
+            <Link
               href="#"
               className="text-gray-400 hover:text-[#64FFDA] transition-colors duration-300"
               aria-label="GitHub"
             >
               <Github size={20} />
-            </a>
-            <a
+            </Link>
+            <Link
               href="#"
               className="text-gray-400 hover:text-[#64FFDA] transition-colors duration-300"
               aria-label="LinkedIn"
             >
               <Linkedin size={20} />
-            </a>
-            <a
+            </Link>
+            <Link
               href="#"
               className="text-gray-400 hover:text-[#64FFDA] transition-colors duration-300"
               aria-label="Twitter"
             >
               <Twitter size={20} />
-            </a>
-            <a
+            </Link>
+            <Link
               href="#"
               className="text-gray-400 hover:text-[#64FFDA] transition-colors duration-300"
               aria-label="Email"
             >
               <Mail size={20} />
-            </a>
+            </Link>
           </div>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
