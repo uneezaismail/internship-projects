@@ -58,7 +58,7 @@ export default function Projects() {
   description:
     "An e-commerce website for buying cars online. Includes a product listing page, detailed car pages, and cart functionality for a smooth shopping experience.",
   image:
-    "/carvilla.PNG",
+    "/Carvilla.PNG",
   technologies: ["Next.js", "TypeScript", "Tailwind CSS"],
   github: "https://github.com/uneezaismail/milestone-3-ecommerce",
   external: "https://milestone-3-ecommerce-lyart.vercel.app/",
@@ -80,7 +80,7 @@ export default function Projects() {
   description:
     "A professional interior design website showcasing elegant transformations of homes and offices. It features service listings, a portfolio, client testimonials, and a contact booking system.",
   image:
-    "/pearlVista.PNG",
+    "/pearlvista.PNG",
   technologies: ["Next.js", "Tailwind CSS", "Figma"],
   github: "https://github.com/uneezaismail/interior-design",
   external: "https://interior-design-dun.vercel.app/",
