@@ -319,16 +319,3 @@
 }
 
 
-
-/* clip-path: polygon(
-    0% 0%,  /* Start at top-left */
-    0% 20px, /* Step down */
-    150px 20px, /* Move right */
-    150px 0%, /* Step up */
-    80% 0%, /* Move right to the top-right notch */
-    calc(100% - 150px) 0%, /* Step down */
-    calc(100% - 150px) 20px, /* Move right */
-    100% 20px, /* Step up */
-    100% 100%, /* Bottom right */
-    0% 100% /* Bottom left */
-); */

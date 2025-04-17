@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Wedding Photo Collage</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #473a0742;
+      padding: 10px;
+      font-family: Arial, sans-serif;
+    }
+
+    .collage {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .collage-item {
+      position: relative;
+      overflow: hidden;
+      animation: fadeIn 0.6s ease-in-out;
+      transition: transform 0.3s ease;
+    border: 2px solid white;
+
+    }
+
+    .collage-item:hover {
+      transform: scale(1.03);
+      z-index: 1;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .collage-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.4s ease;
+    }
+
+    .collage-item:hover img {
+      transform: scale(1.1);
+    }
+
+    /* Grid spans for variation */
+    .item1 { grid-column: span 1; grid-row: span 2; }
+    .item2 { grid-column: span 1; grid-row: span 2; }
+    .item3 { grid-column: span 1; grid-row: span 1; }
+    .item4 { grid-column: span 1; grid-row: span 1; }
+    .item5 { grid-column: span 1; grid-row: span 2; }
+    .item6 { grid-column: span 1; grid-row: span 1; }
+    .item7 { grid-column: span 1; grid-row: span 2; }
+    .item8 { grid-column: span 1; grid-row: span 2; }
+    .item9 { grid-column: span 1; grid-row: span 2; }
+    .item10 { grid-column: span 1; grid-row: span 2; }
+    .item11 { grid-column: span 1; grid-row: span 2; }
+    .item12 { grid-column: span 1; grid-row: span 1; }
+    .item13 { grid-column: span 1; grid-row: span 1; }
+
+
+    .collage {
+  grid-auto-rows: 250px;
+}
+
+
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: scale(0.95);
+      }
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+
+    @media (max-width: 768px) {
+  .collage {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 200px;
+    gap: 12px;
+  }
+
+  .item1 { grid-column: span 1; grid-row: span 2; }
+    .item2 { grid-column: span 1; grid-row: span 1; }
+    .item3 { grid-column: span 1; grid-row: span 2; }
+    .item4 { grid-column: span 1; grid-row: span 1; }
+    .item5 { grid-column: span 1; grid-row: span 2; }
+    .item6 { grid-column: span 1; grid-row: span 1; }
+    .item7 { grid-column: span 1; grid-row: span 1; }
+    .item8 { grid-column: span 1; grid-row: span 2; }
+    .item9 { grid-column: span 1; grid-row: span 2; }
+    .item10 { grid-column: span 1; grid-row: span 2; }
+    .item11 { grid-column: span 1; grid-row: span 1; }
+    .item12 { grid-column: span 1; grid-row: span 2; }
+    .item13 { grid-column: span 1; grid-row: span 1; }
+}
+
+@media (max-width: 480px) {
+  .collage {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 120px;
+    gap: 10px;
+  }
+
+
+  .item1 { grid-column: span 1; grid-row: span 2; }
+    .item2 { grid-column: span 1; grid-row: span 1; }
+    .item3 { grid-column: span 1; grid-row: span 1; }
+    .item4 { grid-column: span 1; grid-row: span 2; }
+    .item5 { grid-column: span 1; grid-row: span 1; }
+    .item6 { grid-column: span 1; grid-row: span 2; }
+    .item7 { grid-column: span 1; grid-row: span 1; }
+    .item8 { grid-column: span 1; grid-row: span 2; }
+    .item9 { grid-column: span 1; grid-row: span 2; }
+    .item10 { grid-column: span 1; grid-row: span 2; }
+    .item11 { grid-column: span 1; grid-row: span 1; }
+    .item12 { grid-column: span 1; grid-row: span 2; }
+    .item13 { grid-column: span 1; grid-row: span 1; }
+}
+
+
+
+
+  </style>
+</head>
+<body>
+
+  <div class="collage">
+    <div class="collage-item item1"><img src="https://mrwallpaper.com/images/high/minimalist-artsy-stuff-beige-aesthetic-bbx27yg5x5y4gn7y.webp" alt=""></div>
+    <div class="collage-item item2"><img src="https://i.pinimg.com/736x/21/33/ee/2133ee8fc63cb3017b5f5c9d40f99c38.jpg" alt=""></div>
+    <div class="collage-item item3">
+        <img src="https://i.pinimg.com/736x/a9/7c/29/a97c298f972a8fae546c662ba836c3d6.jpg" alt="">
+    </div>
+    <div class="collage-item item4">
+        <img src="https://plus.unsplash.com/premium_photo-1671641737521-ef09338b6954?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""></div>
+
+    <div class="collage-item item5"><img src="https://images.unsplash.com/photo-1592355591829-aaae33fcff1d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""></div>
+    <div class="collage-item item6"><img src="https://images.unsplash.com/photo-1617972882867-3707f274c115?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""></div>
+    <div class="collage-item item7"><img src="https://images.unsplash.com/photo-1637248666370-70a4a603c23e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""></div>
+    <div class="collage-item item8"><img src="https://i.pinimg.com/1200x/fd/c0/63/fdc06312903c1954b8fe7d4d29b8d9da.jpg" alt=""></div>
+    <div class="collage-item item9"><img src="https://images.unsplash.com/photo-1560792523-9b3e98060a4d?q=80&w=1988&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""></div>
+    <div class="collage-item item10"><img src="https://images.pexels.com/photos/8536042/pexels-photo-8536042.jpeg" alt=""></div>
+    <div class="collage-item item11"><img src="https://i.pinimg.com/736x/70/b6/c1/70b6c1241aa58ff404d8d567e8c01981.jpg" alt=""></div>
+    <div class="collage-item item12"><img src="https://plus.unsplash.com/premium_photo-1723826753083-2309f7203ab1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""></div>
+    <div class="collage-item item13"><img src="https://i.pinimg.com/564x/ee/9a/76/ee9a766a7f7fbfb12642c9f7c9143131.jpg" alt=""></div>
+  </div>
+
+</body>
+</html>

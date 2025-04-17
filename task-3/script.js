@@ -40,3 +40,17 @@ document.addEventListener('DOMContentLoaded', function() {
         }, 100);
     });
 });
+
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  const services = document.querySelectorAll('.service');
+
+  services.forEach(service => {
+    const header = service.querySelector('.service-header');
+    header.addEventListener('click', () => {
+      service.classList.toggle('active');
+    });
+  });
+});
+
