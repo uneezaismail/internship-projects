@@ -26,7 +26,7 @@ export default function Projects() {
       description:
         "A user-friendly e-commerce platform for furniture with product management, secure checkout, and order tracking.",
       image:
-        "/ecommerce-website.png",
+        "/ecommerce-website.PNG",
       technologies: ["Next.js", "TypeScript", "Sanity CMS", "Stripe", "Tailwind CSS"],
       github: "https://github.com/uneezaismail/ecommerce-hackathon",
       external: "https://ecommerce-hackathon-five.vercel.app/",
@@ -36,7 +36,7 @@ export default function Projects() {
       description:
         "A blog platform with categories like stock market, health, and beauty. Features include post listings, a comment section, and a responsive design.",
       image:
-        "/businessly.png",
+        "/businessly.PNG",
       technologies: ["Next.js", "TypeScript", "Sanity CMS", "Tailwind CSS"],
       github: "https://github.com/uneezaismail/sanity-blog-milestone",
       external: "https://sanity-blog-milestone-two.vercel.app/",
@@ -47,7 +47,7 @@ export default function Projects() {
   description:
     "A responsive beauty blog platform featuring curated articles, a commenting system, and custom CMS for easy content updates.",
   image:
-    "/bloom-n-beauty.png",
+    "/bloom-n-beauty.PNG",
   technologies: ["Next.js", "Sanity CMS", "Tailwind CSS"],
   github: "https://github.com/uneezaismail/blog-milestone",
   external: "https://blog-milestone.vercel.app/",
@@ -58,7 +58,7 @@ export default function Projects() {
   description:
     "An e-commerce website for buying cars online. Includes a product listing page, detailed car pages, and cart functionality for a smooth shopping experience.",
   image:
-    "/carvilla.png",
+    "/carvilla.PNG",
   technologies: ["Next.js", "TypeScript", "Tailwind CSS"],
   github: "https://github.com/uneezaismail/milestone-3-ecommerce",
   external: "https://milestone-3-ecommerce-lyart.vercel.app/",
@@ -69,7 +69,7 @@ export default function Projects() {
   description:
     "A modern digital agency website showcasing services like UI/UX design and development. Features recent projects, achievements, and client trust with a sleek design.",
   image:
-    "/agenone.png",
+    "/agenone.PNG",
   technologies: ["HTML", "CSS", "JavaScript"],
   github: "https://github.com/uneezaismail/internship-projects/tree/main/task-3",
   external: "https://internship-projects-rust.vercel.app/",
@@ -80,7 +80,7 @@ export default function Projects() {
   description:
     "A professional interior design website showcasing elegant transformations of homes and offices. It features service listings, a portfolio, client testimonials, and a contact booking system.",
   image:
-    "https://images.unsplash.com/photo-1545239351-ef35f43d514b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80",
+    "/pearlVista.PNG",
   technologies: ["Next.js", "Tailwind CSS", "Figma"],
   github: "https://github.com/uneezaismail/interior-design",
   external: "https://interior-design-dun.vercel.app/",
