@@ -15,10 +15,10 @@ export default function Projects() {
   })
 
   const containerRef = useRef(null)
-  // const { scrollYProgress } = useScroll({
-  //   target: containerRef,
-  //   offset: ["start end", "end start"],
-  // })
+  const { scrollYProgress } = useScroll({
+    target: containerRef,
+    offset: ["start end", "end start"],
+  })
 
   const projects = [
     {

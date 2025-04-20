@@ -19,7 +19,7 @@ export default function Skills() {
 
   const y = useTransform(scrollYProgress, [0, 1], [50, -50])
 
-  // Group skills by category
+ 
   const skillCategories = {
     "Frontend Development": [
       { name: "HTML/CSS", icon: <Palette className="w-5 h-5" /> },
@@ -57,7 +57,7 @@ export default function Skills() {
           <div className="h-px bg-gray-800 flex-grow ml-4"></div>
         </motion.div>
 
-        {/* Skills Section */}
+       
         <div className="space-y-12">
           {Object.entries(skillCategories).map(([category, skills], categoryIndex) => (
             <motion.div

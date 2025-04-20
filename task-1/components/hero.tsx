@@ -15,7 +15,6 @@ export default function Hero() {
     const ctx = canvas.getContext("2d")
     if (!ctx) return
 
-    // Set canvas dimensions
     const setCanvasDimensions = () => {
       if (canvas) {
         canvas.width = window.innerWidth
@@ -25,7 +24,7 @@ export default function Hero() {
     setCanvasDimensions()
     window.addEventListener("resize", setCanvasDimensions)
 
-    // Particle class
+    
     class Particle {
       x: number
       y: number
@@ -35,7 +34,7 @@ export default function Hero() {
       color: string
 
       constructor() {
-        // Make sure we have access to canvas dimensions
+        
         const width = canvas?.width || window.innerWidth
         const height = canvas?.height || window.innerHeight
 
@@ -48,7 +47,7 @@ export default function Hero() {
       }
 
       update() {
-        // Make sure we have access to canvas dimensions
+      
         const width = canvas?.width || window.innerWidth
         const height = canvas?.height || window.innerHeight
 
@@ -70,14 +69,13 @@ export default function Hero() {
       }
     }
 
-    // Create particles
+   
     const particlesArray: Particle[] = []
     const numberOfParticles = Math.min(window.innerWidth / 10, 100)
     for (let i = 0; i < numberOfParticles; i++) {
       particlesArray.push(new Particle())
     }
 
-    // Animation loop
     const animate = () => {
       if (!ctx || !canvas) return
       ctx.clearRect(0, 0, canvas.width, canvas.height)
@@ -86,7 +84,7 @@ export default function Hero() {
         particlesArray[i].update()
         particlesArray[i].draw()
 
-        // Connect particles with lines
+       
         for (let j = i; j < particlesArray.length; j++) {
           const dx = particlesArray[i].x - particlesArray[j].x
           const dy = particlesArray[i].y - particlesArray[j].y

@@ -13,7 +13,7 @@ export default function SocialLinks() {
 
   return (
     <>
-      {/* Left side vertical social links - hidden on mobile */}
+     
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -45,7 +45,7 @@ export default function SocialLinks() {
         </div>
       </motion.div>
 
-      {/* Right side email - hidden on mobile */}
+    
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -60,7 +60,7 @@ export default function SocialLinks() {
             transition={{ delay: 1.6, duration: 0.5 }}
             className="text-gray-400 hover:text-[#64FFDA] transition-colors duration-300 font-mono text-xs tracking-widest [writing-mode:vertical-rl]"
           >
-            ismailrahet@gmail.com
+            uneezaismail@gmail.com
           </motion.a>
           <motion.div
             initial={{ height: 0 }}
@@ -71,7 +71,7 @@ export default function SocialLinks() {
         </div>
       </motion.div>
 
-      {/* Mobile social links*/}
+   
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -100,7 +100,7 @@ export default function SocialLinks() {
               transition={{ delay: 1.6, duration: 0.5 }}
               className="text-gray-400 hover:text-[#64FFDA] transition-colors duration-300 font-mono text-xs p-2"
             >
-              ismailrahet@gmail.com
+              uneezaismail@gmail.com
             </motion.a>
           </div>
         </div>
